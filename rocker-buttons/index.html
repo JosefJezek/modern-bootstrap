@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Modern Bootstrap - Rocker Buttons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link data-require="bootstrap-css@3.0.3" data-semver="3.0.3" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+  <link data-require="font-awesome@4.0.3" data-semver="4.0.3" rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">Modern Bootstrap</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li class="dropdown active">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
+            <ul class="dropdown-menu themes" aria-labelledby="themes">
+              <li class="active" data-theme="default"><a tabindex="-1" href="#">Default</a>
+              </li>
+              <li class="divider"></li>
+              <li data-theme="amelia"><a tabindex="-1" href="#">Amelia</a>
+              </li>
+              <li data-theme="cerulean"><a tabindex="-1" href="#">Cerulean</a>
+              </li>
+              <li data-theme="cosmo"><a tabindex="-1" href="#">Cosmo</a>
+              </li>
+              <li data-theme="cyborg"><a tabindex="-1" href="#">Cyborg</a>
+              </li>
+              <li data-theme="flatly"><a tabindex="-1" href="#">Flatly</a>
+              </li>
+              <li data-theme="journal"><a tabindex="-1" href="#">Journal</a>
+              </li>
+              <li data-theme="readable"><a tabindex="-1" href="#">Readable</a>
+              </li>
+              <li data-theme="simplex"><a tabindex="-1" href="#">Simplex</a>
+              </li>
+              <li data-theme="slate"><a tabindex="-1" href="#">Slate</a>
+              </li>
+              <li data-theme="spacelab"><a tabindex="-1" href="#">Spacelab</a>
+              </li>
+              <li data-theme="united"><a tabindex="-1" href="#">United</a>
+              </li>
+              <li data-theme="yeti"><a tabindex="-1" href="#">Yeti</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Buy</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://bootswatch.com/" target="_blank">Bootswatch Themes</a>
+          </li>
+          <li><a href="https://wrapbootstrap.com/?ref=" target="_blank">WrapBootstrap</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+        <h1 class="page-header">Rocker Buttons</h1>
+
+        <table class="table table-bordered table-striped buttons-table">
+          <thead>
+            <tr>
+              <th>Button</th>
+              <th class="hidden-xs">Large Button</th>
+              <th>Small Button</th>
+              <th>Extra Small Button</th>
+              <th class="hidden-xs">Disabled Button</th>
+              <th class="hidden-xs">Button with Icon</th>
+              <th>Block Button</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a class="btn btn-default" href="#">Default</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-lg btn-default" href="#">Default</a>
+              </td>
+              <td><a class="btn btn-sm btn-default" href="#">Default</a>
+              </td>
+              <td><a class="btn btn-xs btn-default" href="#">Default</a>
+              </td>
+              <td class="hidden-xs"><a class="btn disabled btn-default" href="#">Default</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-default" href="#"><i class="fa fa-cog"></i> Default</a>
+              </td>
+              <td><a class="btn btn-block btn-default" href="#">Default</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="btn btn-primary" href="#">Primary</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-primary btn-lg" href="#">Primary</a>
+              </td>
+              <td><a class="btn btn-primary btn-sm" href="#">Primary</a>
+              </td>
+              <td><a class="btn btn-primary btn-xs" href="#">Primary</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-primary disabled" href="#">Primary</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-primary" href="#"><i class="fa fa-shopping-cart"></i> Primary</a>
+              </td>
+              <td><a class="btn btn-primary btn-block" href="#">Primary</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="btn btn-info" href="#">Info</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-info btn-lg" href="#">Info</a>
+              </td>
+              <td><a class="btn btn-info btn-sm" href="#">Info</a>
+              </td>
+              <td><a class="btn btn-info btn-xs" href="#">Info</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-info disabled" href="#">Info</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-info" href="#"><i class="fa fa-sun-o fa-fw"></i> Info</a>
+              </td>
+              <td><a class="btn btn-info btn-block" href="#">Info</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="btn btn-success" href="#">Success</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-success btn-lg" href="#">Success</a>
+              </td>
+              <td><a class="btn btn-success btn-sm" href="#">Success</a>
+              </td>
+              <td><a class="btn btn-success btn-xs" href="#">Success</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-success disabled" href="#">Success</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-success" href="#"><i class="fa fa-check fa-fw"></i> Success</a>
+              </td>
+              <td><a class="btn btn-success btn-block" href="#">Success</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="btn btn-warning" href="#">Warning</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-warning btn-lg" href="#">Warning</a>
+              </td>
+              <td><a class="btn btn-warning btn-sm" href="#">Warning</a>
+              </td>
+               <td><a class="btn btn-warning btn-xs" href="#">Warning</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-warning disabled" href="#">Warning</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-warning" href="#"><i class="fa fa-warning fa-fw"></i> Warning</a>
+              </td>
+              <td><a class="btn btn-warning btn-block" href="#">Warning</a>
+              </td>
+            </tr>
+            <tr>
+              <td><a class="btn btn-danger" href="#">Danger</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-danger btn-lg" href="#">Danger</a>
+              </td>
+              <td><a class="btn btn-danger btn-sm" href="#">Danger</a>
+              </td>
+              <td><a class="btn btn-danger btn-xs" href="#">Danger</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-danger disabled" href="#">Danger</a>
+              </td>
+              <td class="hidden-xs"><a class="btn btn-danger" href="#"><i class="fa fa-times fa-fw"></i> Danger</a>
+              </td>
+              <td><a class="btn btn-danger btn-block" href="#">Danger</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <p class="lead text-muted">Groups</p>
+            <div class="row">
+              <div class="col-sm-8 col-lg-8">
+                <div class="btn-group">
+                  <button class="btn btn-default">Left</button>
+                  <button class="btn btn-default">Middle</button>
+                  <button class="btn btn-default">Right</button>
+                </div>
+                <div class="btn-group">
+                  <button class="btn btn-default">1</button>
+                  <button class="btn btn-default">2</button>
+                  <button class="btn btn-default">3</button>
+                  <button class="btn btn-default">4</button>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default"><i class="fa fa-fw fa-envelope"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-fw fa-cog"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-fw fa-heart"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-fw fa-camera"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-4">
+                <div class="btn-group btn-group-vertical">
+                  <button type="button" class="btn btn-default"><i class="fa fa-align-left"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-align-center"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-align-right"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-align-justify"></i>
+                  </button>
+                </div>
+                <div class="btn-group btn-group-vertical">
+                  <button type="button" class="btn btn-default"><i class="fa fa-fw fa-envelope"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-fw fa-cog"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-fw fa-heart"></i>
+                  </button>
+                  <button type="button" class="btn btn-default"><i class="fa fa-fw fa-camera"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-8">
+            <p class="lead text-muted">Button dropdowns</p>
+            <div class="btn-toolbar" style="margin: 0;">
+              <div class="btn-group">
+                <button class="btn dropdown-toggle btn-default" data-toggle="dropdown">Action <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Danger <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Warning <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">Success <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Info <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+            </div>
+            <div class="btn-toolbar" style="margin: 0;">
+              <div class="btn-group">
+                <button class="btn btn-default">Action</button>
+                <button class="btn dropdown-toggle btn-default" data-toggle="dropdown"><span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-primary">Action</button>
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-danger">Danger</button>
+                <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-warning">Warning</button>
+                <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-success">Success</button>
+                <button class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-info">Info</button>
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /btn-group -->
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-lg-6">
+                <div class="btn-toolbar">
+                  <div class="btn-group">
+                    <button class="btn btn-lg btn-default">Large action</button>
+                    <button class="btn btn-lg dropdown-toggle btn-default" data-toggle="dropdown"><span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a>
+                      </li>
+                      <li><a href="#">Another action</a>
+                      </li>
+                      <li><a href="#">Something else here</a>
+                      </li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /btn-group -->
+                </div>
+                <div class="btn-toolbar">
+                  <div class="btn-group">
+                    <button class="btn btn-sm btn-default">Standard action</button>
+                    <button class="btn btn-sm dropdown-toggle btn-default" data-toggle="dropdown"><span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a>
+                      </li>
+                      <li><a href="#">Another action</a>
+                      </li>
+                      <li><a href="#">Something else here</a>
+                      </li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /btn-group -->
+                </div>
+                <div class="btn-toolbar">
+                  <div class="btn-group">
+                    <button class="btn btn-default btn-xs">Small action</button>
+                    <button class="btn dropdown-toggle btn-default btn-xs" data-toggle="dropdown"><span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a>
+                      </li>
+                      <li><a href="#">Another action</a>
+                      </li>
+                      <li><a href="#">Something else here</a>
+                      </li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /btn-group -->
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-6">
+                <div class="btn-toolbar" style="margin: 0;">
+                  <div class="btn-group dropup">
+                    <button class="btn btn-default">Dropup</button>
+                    <button class="btn dropdown-toggle btn-default" data-toggle="dropdown"><span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a>
+                      </li>
+                      <li><a href="#">Another action</a>
+                      </li>
+                      <li><a href="#">Something else here</a>
+                      </li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /btn-group -->
+                  <div class="btn-group dropup">
+                    <button class="btn primary btn-default">Right dropup</button>
+                    <button class="btn primary dropdown-toggle btn-default" data-toggle="dropdown"><span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu pull-right">
+                      <li><a href="#">Action</a>
+                      </li>
+                      <li><a href="#">Another action</a>
+                      </li>
+                      <li><a href="#">Something else here</a>
+                      </li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /btn-group -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <link rel="stylesheet" id="theme" />
+  <script data-require="jquery.js@1.10.2" data-semver="1.10.2" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script data-require="bootstrap.js@3.0.3" data-semver="3.0.3" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
