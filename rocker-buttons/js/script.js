@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  var path_theme = "/bootswatch/3.0.3/";
+  var path_theme = "bootswatch/3.0.3/";
 
-  $("#theme").attr("href", path_theme + "/default/bootstrap.min.css");
+  $("#theme").attr("href", path_theme + "default/bootstrap.min.css");
   $("body").attr("class", theme);
 
   $("#navbar-main .themes li").click(function() {
